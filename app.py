@@ -5,7 +5,6 @@ import tensorflow as tf  # To load the trained model and make predictions
 import numpy as np  # For numerical computations
 from keras.utils import img_to_array  # To preprocess image data
 from keras.layers import DepthwiseConv2D  # For custom depthwise convolution
-import distutils.core
 import os  # To handle file operations
 
 # Step 1: Define a Custom DepthwiseConv2D Class
